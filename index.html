@@ -1,34 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+     <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Personal Page</title>
-         <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        #slackUserName {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        #githubURL {
-            margin-top: 20px;
-        }
-    </style>
     </head>
     <body>
-        <div>
-            <p id="slackUserName" data-testid="slackUserName">John Ochieng</p>
+        <div class="container">
+            <p id="slackUserName" data-testid="slackUserName" class="slackUserName">John Ochieng</p>
             <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RAA5GABD-747236f6adab-512" alt="John Ochieng" data-testid="slackDisplayImage" width="150">
             <p></p>
-            <p data-testid="currentDayOfTheWeek">Saturday</p>
+            <p data-testid="currentDayOfTheWeek" class="currentDayOfTheWeek">Saturday</p>
             <p id="currentUTCTime" data-testid="currentUTCTime"></p>
-            <p data-testid="myTrack">Frontend</p>
-            <a href="https://github.com/ochi3ng/Zuri-internship" data-testid="githubURL">Zuri-internship</a>
+            <p data-testid="myTrack"class="myTrack">Frontend</p>
+            <a href="https://github.com/ochi3ng/Zuri-internship" data-testid="githubURL">Source Cord</a>
        
         </div>
                <script>

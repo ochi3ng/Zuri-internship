@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color:blue;
+    padding: .85em;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+    color: white;
+}
+a:hover,
+a.focus {
+    background: white;
+    color:blue;
+    border: 2px solid black;
+}
+.githubURL {
+    margin-bottom: 1em;
+}
+.slackUserName{
+    font-size: 2rem;
+     margin-bottom: 1rem;
+     font-weight: bold;
+}
+.myTrack{
+   font-size: 2rem; 
+    margin-bottom: 1rem;
+}
+.currentDayOfTheWeek{
+     font-size: 2rem;
+     padding-top: -80%;
+}
+img{
+    width: 50%;
+    border-radius: 50%;
+     margin-bottom: -3rem;
+    border: 5px solid #efefef;
+   
+}
+.container{
+    width: 398px;
+    border-radius: 30px;
+    box-shadow: 2px 5px 9px rgb(173, 161, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background: rgb(255, 255, 255);
+}
