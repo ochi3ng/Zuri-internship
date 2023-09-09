@@ -25,10 +25,18 @@
             <p id="slackUserName" data-testid="slackUserName">John Ochieng</p>
             <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RAA5GABD-747236f6adab-512" alt="John Ochieng" data-testid="slackDisplayImage" width="150">
             <p></p>
-            <p data-testid="currentDayOfTheWeek">Friday</p>
-            <p data-testid="currentUTCTime">1700hrs</p>
+            <p data-testid="currentDayOfTheWeek">Saturday</p>
+            <p id="currentUTCTime" data-testid="currentUTCTime"></p>
             <p data-testid="myTrack">Frontend</p>
             <a href="https://github.com/ochi3ng/Zuri-internship" data-testid="githubURL">Zuri-internship</a>
+       
         </div>
+               <script>
+        // Get the current UTC time in milliseconds
+        const currentUTCTime = Date.now();
+
+        // Display it on the webpage
+        document.getElementById("currentUTCTime").textContent = `Current UTC Time (in milliseconds): ${currentUTCTime}`;
+    </script>
     </body>
 </html>
